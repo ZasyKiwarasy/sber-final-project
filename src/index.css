@@ -3,9 +3,11 @@
 * {
 	box-sizing: inherit;
 }
+
 html {
 	box-sizing: border-box;
 }
+
 body {
 	font-family: "Nunito", "Arial", "Helvetica", sans-serif;
 }
@@ -17,4 +19,8 @@ body {
 	gap: 40px;
 }
 
+.Home-post {
+    border: 1px solid black;
+    padding: 5px;
+}
 
