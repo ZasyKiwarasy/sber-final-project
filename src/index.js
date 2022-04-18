@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom'
 import './index.css';
 
+import App from './app'
+
 ReactDOM.render(
-	<h1>Hello React!</h1>
+	<BrowserRouter>
+	  <App />
+	</BrowserRouter>
 	,
 	document.querySelector('#root')
 );
